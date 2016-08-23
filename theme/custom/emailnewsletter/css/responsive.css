@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+	 body {
+	   padding:0px !important;
+	 }
+		.title td h1 {
+			font-size: 21px !important;
+			word-break: normal;
+		}
+		a.view-small {
+			display: block !important;
+		}
+		a.view-large {
+			display: none !important;
+		}
+		.ad img {
+			width:100%;
+			height:auto;
+		}
+	}
