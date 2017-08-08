@@ -30,4 +30,4 @@
     </td>
   </tr>
 </table>
-<div class="border border-inset"></div>
+<div class="border border-inset article-teaser-border <?php if (!empty($elements['#order_class'])) { print $elements['#order_class']; } ?>"></div>
