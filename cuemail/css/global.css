@@ -140,3 +140,7 @@ ul { padding-left: 17px; }
 p:empty, td:empty { display: none !important; }
 
 .article-teaser-border { border-bottom: 1px solid #e7e7e7; display: block; margin: 0 10px 20px; }
+
+/* Social Links */
+.social-links { text-align: center; width: 100%; padding: 10px 0; }
+.social-links img { width: 24px !important; height: 24px !important; display: inline-block !important; float: none; margin: 5px; }
