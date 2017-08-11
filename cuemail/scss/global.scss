@@ -283,6 +283,7 @@ table.column {
     padding:0 0 5px 0;
     p {
       margin:0;
+      margin-bottom:0;
     }
   }
 }
@@ -429,4 +430,10 @@ ul {
 
 p:empty, td:empty {
   display: none !important;
+}
+
+.article-teaser-border {
+  border-bottom:1px solid #e7e7e7;
+  display:block;
+  margin:0 10px 20px;
 }
