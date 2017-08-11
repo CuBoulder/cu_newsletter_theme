@@ -16,6 +16,8 @@
 </table>
 <?php endif; ?>
 <?php print render($content['newsletter_content']); ?>
+
+<?php if (!empty($content['field_newsletter_more_link'])): ?>
 <table class="row article-section-link" role="presentation">
   <tr>
     <td class="wrapper last">
@@ -31,3 +33,4 @@
     </td>
   </tr>
 </table>
+<?php endif; ?>

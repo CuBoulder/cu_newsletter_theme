@@ -73,6 +73,8 @@ td.web-link a { font-size: 11px; }
 
 h2, h2.field-name-field-newsletter-section-title { font-size: 20px; font-weight: bold; margin-top: 10px; margin-bottom: 10px; }
 
+h2.field-name-field-newsletter-section-title { margin-top: 0; margin-bottom: 0; }
+
 h3.feature-title { font-size: 18px; font-weight: bold; margin-bottom: 5px; }
 
 h3.teaser-title { font-size: 18px; font-weight: bold; margin-bottom: 5px; }

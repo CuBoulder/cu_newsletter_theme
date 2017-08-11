@@ -15,7 +15,7 @@ body, table.body { background-color: #FFFFFF; }
 
 td.issue-date { color: #cccccc; }
 
-td.web-link a { color: #cccccc; }
+td.web-link a { color: #cccccc !important; }
 
 td.web-link a:hover { color: #ffffff !important; }
 
