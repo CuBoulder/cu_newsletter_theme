@@ -106,9 +106,14 @@ function cuemail_preprocess_node(&$vars) {
           }
         }
       }
-      $markup = implode(' ', $new_tags);
-      unset($vars['content']['field_article_categories']);
-      $vars['content']['field_article_categories'][0]['#markup'] = '<p>' . $markup . '</p>';
+      if (!empty($new_tags)) {
+        $markup = implode(' ', $new_tags);
+        unset($vars['content']['field_article_categories']);
+        $vars['content']['field_article_categories'][0]['#markup'] = '<p>' . $markup . '</p>';
+      }
+      else {
+        $vars['content']['field_article_categories'] = array();
+      }
     }
   }
 }

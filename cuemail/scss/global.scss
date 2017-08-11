@@ -230,12 +230,12 @@ h2.field-name-field-newsletter-section-title {
 h3.feature-title {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 h3.teaser-title {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 h3 {
   font-size:18px;
@@ -277,8 +277,14 @@ p.lead {
 }
 
 /* Article Categories */
-td.tags {
-  padding:5px 0;
+table.columns,
+table.column {
+  td.tags {
+    padding:0 0 5px 0;
+    p {
+      margin:0;
+    }
+  }
 }
 td.tags a,
 td.tags a:link,
@@ -419,4 +425,8 @@ ul {
 .open-counter img {
   width:1px !important;
   height:1px !important;
+}
+
+p:empty, td:empty {
+  display: none !important;
 }
