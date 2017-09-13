@@ -158,12 +158,18 @@
                     <table class="twelve columns" role="presentation">
                       <tr>
                         <td class="footer-content text-pad padding-bottom">
+                          <?php if (!empty($social_links)): ?>
+                            <div class="social-links">
+                                <?php print $social_links; ?>
+                            </div>
+                          <?php endif; ?>
                           <p><strong><a href="<?php print $base_url; ?>"><?php print variable_get('site_name', ''); ?></a></strong></p>
                           <!--
                             <p class="copyright">&copy; Regents of the University of Colorado</p>
                           -->
                           <?php if (!empty($content['field_newsletter_footer'])): ?>
                             <div class="newsletter-footer">
+
                               <?php
                                 print render($content['field_newsletter_footer']);
                                 ?>
